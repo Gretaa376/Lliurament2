@@ -1,0 +1,27 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <Style src="project://database/Assets/NewUSSFile.uss?fileID=7433441132597879392&amp;guid=74d2d9cfdedbb2742a608010ed58b8c0&amp;type=3#NewUSSFile" />
+    <ui:VisualElement name="CONTENEDOR1" class="CONTENEDOR1" style="flex-grow: 1; width: 100%; height: 100%; flex-direction: row; align-items: center; justify-content: flex-end; align-self: center; top: 0;">
+        <ui:VisualElement class="IZQUIERDA" style="flex-grow: 0; width: 25%; height: 100%; flex-direction: column; background-color: rgb(22, 20, 20); align-items: stretch; justify-content: space-around;">
+            <ui:VisualElement name="LOGO" style="flex-grow: 1; background-color: rgb(66, 22, 22); background-image: url(&quot;project://database/Assets/resorces/GSD.png?fileID=21300000&amp;guid=7a77ecb4c63fb7b4491b78f1db55bb38&amp;type=3#GSD&quot;); height: -130px; width: 192px; align-self: flex-start;" />
+            <ui:VisualElement name="OPTIONS" class="boton-menu" style="flex-grow: 1; background-color: rgb(242, 242, 222); align-self: center; width: 192px;">
+                <ui:Button text="Options" parse-escape-sequences="true" display-tooltip-when-elided="true" class="boton-menu" style="width: 178px; height: 62px; background-color: rgb(144, 175, 192); position: absolute; top: 13px; left: -1px; -unity-font-style: italic; font-size: 15px;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement class="CENTRO" style="flex-grow: 1; width: 34%; height: 100%; flex-direction: row; flex-shrink: 3; justify-content: space-around; align-items: center; align-self: center; background-color: rgb(224, 179, 110);">
+            <ui:VisualElement name="PLAY" class="boton-menu" style="flex-grow: 1; width: 34%; height: 30%;">
+                <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" class="boton-menu" style="height: 153px; width: 348px; position: absolute; top: -21px; left: 1px; background-image: url(&quot;project://database/Assets/resorces/%E2%80%94Pngtree%E2%80%94game%20start%20font%20game%20pixel_5486030.png?fileID=21300000&amp;guid=ea8f245b1abf7814cbd519d54e06a2c6&amp;type=3#—Pngtree—game start font game pixel_5486030&quot;); -unity-background-scale-mode: scale-and-crop; background-color: rgb(202, 225, 243); margin-top: 13px; margin-right: 13px; margin-bottom: 13px; margin-left: 13px; border-left-color: rgb(242, 242, 222); border-right-color: rgb(242, 242, 222); border-top-color: rgb(242, 242, 222); border-bottom-color: rgb(242, 242, 222); border-top-width: 3px; border-right-width: 3px; border-bottom-width: 3px; border-left-width: 3px;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="CUORE" style="flex-grow: 1; width: 74px; height: 70px; position: absolute; top: 80px; left: 231px; background-image: url(&quot;project://database/Assets/resorces/%E2%80%94Pngtree%E2%80%94pixel%20love_3279134.png?fileID=21300000&amp;guid=edfc99d32da7d6342b23f56d054f1ff5&amp;type=3#—Pngtree—pixel love_3279134&quot;);" />
+            <ui:VisualElement name="CUORE" style="flex-grow: 1; height: 70px; position: absolute; top: 81px; left: 159px; background-image: url(&quot;project://database/Assets/resorces/%E2%80%94Pngtree%E2%80%94pixel%20love_3279134.png?fileID=21300000&amp;guid=edfc99d32da7d6342b23f56d054f1ff5&amp;type=3#—Pngtree—pixel love_3279134&quot;); right: 146px;" />
+            <ui:VisualElement name="CUORE" style="flex-grow: 1; width: 74px; height: 70px; position: absolute; top: 79px; left: 83px; background-image: url(&quot;project://database/Assets/resorces/%E2%80%94Pngtree%E2%80%94pixel%20love_3279134.png?fileID=21300000&amp;guid=edfc99d32da7d6342b23f56d054f1ff5&amp;type=3#—Pngtree—pixel love_3279134&quot;);" />
+        </ui:VisualElement>
+        <ui:VisualElement class="DERECHA" style="flex-grow: 0; width: 25%; height: 100%; flex-direction: column; background-color: rgb(242, 242, 222); align-items: center; justify-content: space-between; align-self: flex-end;">
+            <ui:VisualElement name="CREDITS" class="boton-menu" style="flex-grow: 1; background-color: rgb(242, 242, 222); height: 60%; width: 100%; align-self: center; justify-content: space-between;">
+                <ui:Button text="Credits" parse-escape-sequences="true" display-tooltip-when-elided="true" class="boton-menu" style="background-color: rgb(144, 175, 192); width: 163px; height: 62px; justify-content: space-around; align-items: center; top: 158px; -unity-text-align: middle-center; white-space: normal; text-overflow: clip; left: 0; visibility: visible; position: absolute; margin-top: 13px; margin-right: 13px; margin-bottom: 13px; margin-left: 13px; padding-top: 17px; padding-right: 17px; padding-bottom: 17px; padding-left: 17px; font-size: 15px; color: rgb(16, 16, 16); -unity-font-style: italic;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="QUIT" style="flex-grow: 1; width: 189px; height: 50%; justify-content: space-around; align-self: center; align-items: center;">
+                <ui:Button text="QUIT" parse-escape-sequences="true" display-tooltip-when-elided="true" class="boton-menu" style="height: 59px; width: 110px; background-color: rgb(145, 0, 0); font-size: 15px; -unity-font-style: bold-and-italic; top: 3px; position: absolute; left: 33px; color: rgb(255, 250, 250);" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
